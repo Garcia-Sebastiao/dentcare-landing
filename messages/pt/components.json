@@ -1,0 +1,13 @@
+{
+  "components": {
+    "header": {
+      "navbar": {
+        "about": "Sobre",
+        "plans": "Planos",
+        "testimonials": "Depoimentos"
+      },
+
+      "connect": "Conecte-se"
+    }
+  }
+}
