@@ -4,6 +4,11 @@ import { routing } from "@/i18n/routing";
 import Providers from "./providers";
 import { loadMessages } from "@/i18n/messages";
 import { Header } from "@/components/layout/header/header";
+import { Inter, Outfit } from "next/font/google";
+import "../globals.css";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 type Props = {
   children: React.ReactNode;
@@ -21,8 +26,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await loadMessages(locale);
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body suppressHydrationWarning>
+    <html
+      lang={locale}
+      className={`${inter.variable} ${outfit.variable} font-sans text-dark-shade-01`}
+      suppressHydrationWarning
+    >
+      <body>
         <Providers locale={locale} messages={messages}>
           <Header />
           {children}

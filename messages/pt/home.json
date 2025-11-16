@@ -1,5 +1,38 @@
 {
   "home": {
-    "header": { "title": "bem vindo a Home!" }
+    "hero": {
+      "span": "Clientes Confiavel",
+      "title": "Potencialize sua Clínica Odontológica com Eficiência",
+      "label": "Simplifique processos, centralize informações e impulsione a produtividade da sua clínica com uma plataforma inteligente feita para o setor odontológico.",
+      "options": {
+        "start-now": "Comece gratuitamente",
+        "contact-consultant": "Falar com um Consultor"
+      }
+    },
+
+    "modules": {
+      "title": "Funcionalidades e Módulos",
+      "label": "Módulos integrados que trabalham em conjunto para oferecer uma experiência completa de gestão clínica.",
+
+      "items": {
+        "calendar": {
+          "title": "Agenda Inteligente",
+          "label": "Sistema de agendamento automatizado com confirmação por SMS/WhatsApp e gestão de lista de espera."
+        },
+        "finacial-management": {
+          "title": "Financeira",
+          "label": "Controle completo de receitas, despesas, fluxo de caixa e integração com sistemas de pagamento."
+        },
+        "eletronic-pontuary": {
+          "title": "Prontuário Eletrônico",
+          "label": "Histórico médico digital completo, odontograma interativo e anexos de exames e imagens."
+        },
+
+        "reports": {
+          "title": "Relatórios em Tempo Real",
+          "label": "Dashboards intuitivos com métricas de performance, produtividade e indicadores financeiros. "
+        }
+      }
+    }
   }
 }
