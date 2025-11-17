@@ -19,18 +19,23 @@
           "title": "Agenda Inteligente",
           "label": "Sistema de agendamento automatizado com confirmação por SMS/WhatsApp e gestão de lista de espera."
         },
-        "finacial-management": {
+        "financial-management": {
           "title": "Financeira",
           "label": "Controle completo de receitas, despesas, fluxo de caixa e integração com sistemas de pagamento."
         },
-        "eletronic-pontuary": {
+        "electronic-pontuary": {
           "title": "Prontuário Eletrônico",
           "label": "Histórico médico digital completo, odontograma interativo e anexos de exames e imagens."
         },
 
         "reports": {
           "title": "Relatórios em Tempo Real",
-          "label": "Dashboards intuitivos com métricas de performance, produtividade e indicadores financeiros. "
+          "label": "Dashboards intuitivos com métricas de performance, produtividade e indicadores financeiros. ",
+
+          "counters": {
+            "admin-time": "Redução no tempo administrativo",
+            "user-satisfaction": "Satisfação dos usuários"
+          }
         }
       }
     }

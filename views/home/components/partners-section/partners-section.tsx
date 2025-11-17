@@ -4,11 +4,11 @@ import { Container } from "@/components/layout/container/container";
 export function PartnersSection() {
   return (
     <Container>
-      <div className="grid w-full mt-4 grid-cols-8">
-        {Array(8)
+      <div className="grid w-full mt-16 grid-cols-6 gap-x-[3.688rem]">
+        {Array(6)
           .fill(0)
-          ?.map((index, _) => (
-            <div key={index} className="transition-all grayscale-100 hover:grayscale-0">
+          ?.map((_, index) => (
+            <div key={index} className="transition-all grayscale-100">
               <PartnerLogo />
             </div>
           ))}

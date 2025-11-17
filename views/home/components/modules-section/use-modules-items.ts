@@ -9,20 +9,20 @@ export function useModulesItems() {
   const items = [
     {
       key: "calendar",
-      title: translate("components.modules.items.calendar.title"),
-      label: translate("components.modules.items.calendar.label"),
+      title: translate("home.modules.items.calendar.title"),
+      label: translate("home.modules.items.calendar.label"),
       illustration: CalendarIllustration,
     },
     {
       key: "financial-management",
-      title: translate("components.modules.items.finacial-management.title"),
-      label: translate("components.modules.items.finacial-management.label"),
+      title: translate("home.modules.items.financial-management.title"),
+      label: translate("home.modules.items.financial-management.label"),
       illustration: FinancialManagementIllustration,
     },
     {
-      key: "eletronic-pontuary",
-      title: translate("components.modules.items.eletronic-pontuary.title"),
-      label: translate("components.modules.items.eletronic-pontuary.label"),
+      key: "electronic-pontuary",
+      title: translate("home.modules.items.electronic-pontuary.title"),
+      label: translate("home.modules.items.electronic-pontuary.label"),
       illustration: PontuaryIllustration,
     },
   ];

@@ -21,7 +21,7 @@ export function HeroSection() {
       <div className="w-151.5 absolute bottom-0 left-0 h-151.5 rounded-full bg-green-shade-02/82 blur-[1165.38px]" />
       <div className="w-151.5 absolute bottom-0 right-0 h-151.5 rounded-full bg-green-shade-02/82 blur-[1165.38px]" />
 
-      <Container className="pt-[160px] flex flex-col items-center">
+      <Container className="pt-40 flex flex-col items-center">
         <div className="flex w-full max-w-260 items-center flex-col gap-y-4 relative">
           <div className="flex items-center gap-x-3.5">
             <AvatarsGroups />
@@ -31,7 +31,7 @@ export function HeroSection() {
             </span>
           </div>
 
-          <h1 className="text-[4rem] font-display leading-tight max-w-260 text-dark-shade-01 font-bold text-center">
+          <h1 className="text-[4rem] font-display leading-20 max-w-260 text-dark-shade-01 font-bold text-center">
             {translate("home.hero.title")}
           </h1>
 
@@ -44,7 +44,7 @@ export function HeroSection() {
               {translate("home.hero.options.start-now")}
             </Button>
 
-            <Button className="!text-dark-shade-01 bg-transparent border-green-shade-01 border rounded-full py-2.5 px-8.5">
+            <Button className="text-dark-shade-01! bg-transparent border-green-shade-01 border rounded-full py-2.5 px-8.5">
               {translate("home.hero.options.contact-consultant")}
             </Button>
           </div>
@@ -57,11 +57,11 @@ export function HeroSection() {
             <QueriesShape />
           </div>
 
-          <div className="absolute bottom-0 -left-10">
+          <div className="absolute bottom-0 -left-20">
             <SchedulingShape />
           </div>
 
-          <div className="absolute bottom-0 -right-10">
+          <div className="absolute bottom-0 -right-20">
             <ManagementShape />
           </div>
         </div>
