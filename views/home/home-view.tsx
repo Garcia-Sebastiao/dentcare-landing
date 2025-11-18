@@ -5,6 +5,7 @@ import { ModulesSection } from "./components/modules-section/modules-section";
 import { BenefitsSection } from "./components/benefits-section/benefits-section";
 import { TestimonialsSection } from "./components/testimonials-section/testimonials-section";
 import { PricingSection } from "./components/pricing-section/pricing-section";
+import { ProductSection } from "./components/product-section/product-section";
 
 export function HomeView() {
   return (
@@ -16,6 +17,7 @@ export function HomeView() {
       <BenefitsSection />
       <TestimonialsSection />
       <PricingSection />
+      <ProductSection />
     </div>
   );
 }

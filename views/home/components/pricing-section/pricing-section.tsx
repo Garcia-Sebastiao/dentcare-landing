@@ -7,6 +7,7 @@ import { Button } from "@/components/shared/button/button";
 import { PricingCard } from "./components/pricing-card";
 
 export function PricingSection() {
+  const [active, setActive] = useState<number | null>(null);
   const [plan, setPlan] = useState<"monthly" | "annual">("monthly");
   const { translate } = useHomeTranslations();
 
@@ -44,58 +45,24 @@ export function PricingSection() {
       </div>
 
       <div className="grid w-full grid-cols-4 gap-4">
-        <PricingCard
-          title="Migrations"
-          price="$1,950"
-          type="Annual Subscription"
-          items={[
-            "Data Migration",
-            "Simple Tax Preparation",
-            "Fund Administration",
-            "Fund Manager",
-            "Investor Records",
-          ]}
-        />
-
-        <PricingCard
-          title="Migrations"
-          price="$1,950"
-          type="Annual Subscription"
-          items={[
-            "Data Migration",
-            "Simple Tax Preparation",
-            "Fund Administration",
-            "Fund Manager",
-            "Investor Records",
-          ]}
-        />
-
-        <PricingCard
-          active
-          title="Migrations"
-          price="$1,950"
-          type="Annual Subscription"
-          items={[
-            "Data Migration",
-            "Simple Tax Preparation",
-            "Fund Administration",
-            "Fund Manager",
-            "Investor Records",
-          ]}
-        />
-
-        <PricingCard
-          title="Migrations"
-          price="$1,950"
-          type="Annual Subscription"
-          items={[
-            "Data Migration",
-            "Simple Tax Preparation",
-            "Fund Administration",
-            "Fund Manager",
-            "Investor Records",
-          ]}
-        />
+        {Array.from({ length: 4 }).map((_, index) => (
+          <PricingCard
+            key={index}
+            active={active === index}
+            onClick={() => setActive(index)}
+            onMouseOver={() => setActive(index)}
+            title="Migrations"
+            price="$1,950"
+            type="Annual Subscription"
+            items={[
+              "Data Migration",
+              "Simple Tax Preparation",
+              "Fund Administration",
+              "Fund Manager",
+              "Investor Records",
+            ]}
+          />
+        ))}
       </div>
     </Container>
   );

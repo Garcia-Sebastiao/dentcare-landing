@@ -1,0 +1,17 @@
+import * as React from "react";
+
+export const VideoIcon: React.FC<React.SVGProps<SVGElement>> = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    fill="none"
+    viewBox="0 0 24 24"
+  >
+    <path
+      fill="#27B4B4"
+      d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-9 5v8l5-4z"
+    ></path>
+  </svg>
+);
+

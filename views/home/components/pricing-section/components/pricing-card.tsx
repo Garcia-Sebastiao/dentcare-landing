@@ -9,6 +9,8 @@ type PricingCardProps = {
   price: string;
   type: string;
   active?: boolean;
+  onClick?: () => void;
+  onMouseOver?: () => void;
 };
 
 export function PricingCard({
@@ -17,12 +19,16 @@ export function PricingCard({
   price,
   type,
   active,
+  onClick,
+  onMouseOver,
 }: PricingCardProps) {
   const { translate } = useHomeTranslations();
   return (
     <div
+      onClick={onClick}
+      onMouseOver={onMouseOver}
       className={clsx(
-        "col-span-1 relative px-7 py-12 rounded-2xl bg-white",
+        "col-span-1 relative cursor-pointer transition-all duration-400 px-7 py-12 rounded-2xl bg-white",
         active && "bg-green-shade-06!"
       )}
     >
@@ -35,7 +41,7 @@ export function PricingCard({
         <div className="flex flex-col">
           <h4
             className={clsx(
-              "text-[#162B60] text-[1.875rem] leading-none font-semibold",
+              "text-[#162B60] transition-all duration-400 text-[1.875rem] leading-none font-semibold",
               active && "text-white"
             )}
           >
@@ -49,7 +55,7 @@ export function PricingCard({
         <div>
           <h4
             className={clsx(
-              "text-[#162B60] font-alternative-01 text-[1.875rem] font-semibold",
+              "text-[#162B60] transition-all duration-400 font-alternative-01 text-[1.875rem] font-semibold",
               active && "text-white"
             )}
           >
@@ -62,7 +68,7 @@ export function PricingCard({
 
           <button
             className={clsx(
-              "rounded-2xl w-full py-4 px-15 pl-10 mt-10 bg-green-shade-06 text-white rounded-l-none",
+              "rounded-2xl w-full transition-all duration-400 py-4 px-15 pl-10 mt-10 bg-green-shade-06 text-white rounded-l-none",
               active && "rounded-l-2xl! bg-white text-green-shade-06! pl-15"
             )}
           >
@@ -75,7 +81,7 @@ export function PricingCard({
         {items?.map((item, index) => (
           <div key={index} className="flex items-center">
             <span
-              className={clsx("text-lg text-[#162B60]", active && "text-white")}
+              className={clsx("text-lg text-[#162B60] transition-all duration-400", active && "text-white")}
             >
               {item}
             </span>

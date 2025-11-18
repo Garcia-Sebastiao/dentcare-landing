@@ -100,6 +100,32 @@
         "monthly": "Mensal",
         "annual": "Anual"
       }
+    },
+
+    "product": {
+      "title": "Pronto para transformar sua clínica?",
+      "label": "Junte-se a mais de 500 clínicas que já revolucionaram sua gestão com o DentalSys. Solicite uma demonstração gratuita e veja como podemos ajudar sua clínica.",
+
+      "items": {
+        "demonstration": {
+          "title": "Demonstração ",
+          "label": "Veja na prática como o sistema se adapta à rotina da sua clínica, com uma apresentação feita sob medida"
+        },
+
+        "consulting": {
+          "title": "Consultoria gratuita",
+          "label": "Receba orientação personalizada para configurar e otimizar o sistema, garantindo uma implantação rápida e eficiente."
+        },
+
+        "support": {
+          "title": "Suporte especializado",
+          "label": "Conte com uma equipe experiente pronta para ajudar em cada etapa, desde a configuração até o do sistema."
+        },
+        "migration": {
+          "title": "Migração de dados",
+          "label": "Transfira suas informações com total segurança e continuidade, sem impactar o funcionamento da sua clínica."
+        }
+      }
     }
   }
 }
