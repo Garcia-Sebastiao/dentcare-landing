@@ -32,7 +32,7 @@ export function Button({
     <button
       onClick={onClick}
       className={cn(
-        "px-4 py-2 bg-green-shade-01 text-white rounded transition-all cursor-pointer",
+        "px-4 py-2 bg-green-shade-01 text-white rounded font-medium transition-all cursor-pointer",
         className
       )}
     >

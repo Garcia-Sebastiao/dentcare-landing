@@ -5,6 +5,7 @@ import { useHomeTranslations } from "@/messages/hooks/use-home-translations";
 import { Container } from "@/components/layout/container/container";
 import { useProductItems } from "./use-product-items";
 import { ProductItem } from "./components/product-item";
+import { Button } from "@/components/shared/button/button";
 
 export function ProductSection() {
   const { translate } = useHomeTranslations();
@@ -48,6 +49,16 @@ export function ProductSection() {
             />
           ))}
         </div>
+      </div>
+
+      <div className="flex gap-x-2.5">
+        <Button className="bg-green-shade-01 rounded-full py-3 px-11">
+          {translate("home.hero.options.request-demo")}
+        </Button>
+
+        <Button className="text-dark-shade-01! bg-transparent border-green-shade-01 border rounded-full py-3 px-11">
+          {translate("home.hero.options.contact-consultant")}
+        </Button>
       </div>
     </Container>
   );

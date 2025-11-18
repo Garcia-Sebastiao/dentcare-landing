@@ -6,7 +6,8 @@
       "label": "Simplifique processos, centralize informações e impulsione a produtividade da sua clínica com uma plataforma inteligente feita para o setor odontológico.",
       "options": {
         "start-now": "Comece gratuitamente",
-        "contact-consultant": "Falar com um Consultor"
+        "contact-consultant": "Falar com um Consultor",
+        "request-demo": "Solicitar Demonstração"
       }
     },
 
@@ -126,6 +127,27 @@
           "label": "Transfira suas informações com total segurança e continuidade, sem impactar o funcionamento da sua clínica."
         }
       }
+    },
+
+    "footer": {
+      "label": "Sistema completo de gestão para clínicas odontológicas, hospitais e consultórios. Tecnologia inteligente para transformar a gestão da sua clínica.",
+
+      "links": {
+        "institutional": {
+          "title": "Institucional",
+          "about": "Sobre",
+          "testimonials": "Depoimentos",
+          "plans": "Planos"
+        },
+
+        "juridic": {
+          "title": "Jurídico",
+          "privacy-policy": "Política de Privacidade",
+          "terms-of-service": "Termos de Serviço"
+        }
+      },
+
+      "all-right-reserved": "Todos os direitos reservados."
     }
   }
 }
