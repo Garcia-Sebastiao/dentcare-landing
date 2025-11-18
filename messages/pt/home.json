@@ -38,6 +38,68 @@
           }
         }
       }
+    },
+
+    "benefits": {
+      "title": "Benefícios para Clínicas e Hospitais",
+
+      "label": "Resultados comprovados que transformam a gestão da sua clínica e impactam diretamente na qualidade do atendimento aos pacientes.",
+
+      "productivity": {
+        "title": "Aumento da Produtividade",
+        "label": "Automatize processos repetitivos e foque no que realmente importa: o cuidado com seus pacientes.",
+
+        "span": "40% mais eficiente"
+      },
+
+      "coasts": {
+        "title": "Redução de Custos",
+        "label": "Elimine desperdícios, otimize recursos e tenha controle total sobre as finanças da clínica",
+        "span": "30% economia"
+      },
+      "patient-experience": {
+        "title": "Experiência do Paciente",
+        "label": "Proporcione um atendimento mais ágil e personalizado com acesso rápido ao histórico completo.",
+        "span": "95%  Satisfação"
+      },
+
+      "time-economy": {
+        "title": "Economia de Tempo",
+        "label": "Reduza o tempo gasto em tarefas administrativas e dedique mais tempo ao atendimento clínico.",
+        "span": "5h por dia"
+      },
+
+      "transform-your-clinic": {
+        "title": "Transforme sua",
+        "span": "clínica",
+        "label": "Mais de 500 clínicas já confiam no DentalSys para modernizar seus processos, aumentar a eficiência operacional e oferecer uma experiência excepcional aos pacientes.",
+
+        "counters": {
+          "clinics": "Clínicas Atendidas",
+          "patients": "Pacientes Gerenciados",
+          "technical-support": "Suporte Técnico"
+        },
+
+        "request-demo": "Solicitar Demonstração"
+      }
+    },
+
+    "testimonials": {
+      "title": "Depoimentos e Cases de Sucesso",
+      "label": "Veja o que nossos clientes falam sobre os resultados obtidos com o DentalSys em suas clínicas e consultórios."
+    },
+
+    "pricing": {
+      "title": "Planos & Preços",
+      "label": "Independentemente do tamanho das suas necessidades de automação para economizar tempo, estamos aqui para ajudá-lo a crescer.",
+
+      "starting-at": "Começa em",
+      "get-price-estimate": "Obter Estimativa",
+
+      "options": {
+        "monthly": "Mensal",
+        "annual": "Anual"
+      }
     }
   }
 }

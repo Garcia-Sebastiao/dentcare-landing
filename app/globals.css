@@ -9,6 +9,9 @@
   --color-green-shade-01: #1c8080;
   --color-green-shade-02: #00bf6f;
   --color-green-shade-03: #23a4a4;
+  --color-green-shade-04: #52c3c3;
+  --color-green-shade-05: #156868;
+  --color-green-shade-06: #27b4b4;
   --color-dark-shade-01: #414141;
   --color-dark-shade-02: #3b3b3b;
   --color-dark-shade-03: #484848;
@@ -16,6 +19,7 @@
   --font-display: var(--font-inter);
   --font-sans: var(--font-outfit);
   --font-alternative: var(--font-geist);
+  --font-alternative-01: var(--font-archivo);
 }
 
 body {
