@@ -4,6 +4,7 @@ import { DentCareLogo } from "@/assets/common/logo";
 import { Button } from "@/components/shared/button/button";
 import { useComponentsTranslations } from "@/messages/hooks/use-components-translations";
 import { Navbar } from "./navbar/navbar";
+import { LanguageSwitcher } from "./navbar/language-switcher";
 
 export function Header() {
   const { translate } = useComponentsTranslations();
@@ -15,9 +16,12 @@ export function Header() {
 
         <Navbar />
 
-        <Button className="py-2.5 px-8.5 rounded-full font-medium">
-          {translate("components.header.connect")}
-        </Button>
+        <div className="flex items-center gap-x-4">
+          <LanguageSwitcher />
+          <Button className="py-2.5 px-8.5 rounded-full font-medium">
+            {translate("components.header.connect")}
+          </Button>
+        </div>
       </div>
     </header>
   );

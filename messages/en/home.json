@@ -1,5 +1,128 @@
 {
   "home": {
-    "header": { "title": "Welcome Home!" }
+    "hero": {
+      "span": "Trustworthy Customers",
+      "title": "Enhance your Dental Clinic Efficiently",
+      "label": "Simplify processes, centralize information and boost your clinic's productivity with an intelligent platform made for the dental sector.",
+      "options": {
+        "start-now": "Get started for free",
+        "contact-consultant": "Speak to a Consultant",
+        "request-demo": "Request Demo"
+      }
+    },
+    "modules": {
+      "title": "Features and Modules",
+      "label": "Integrated modules that work together to deliver a complete clinical management experience.",
+      "items": {
+        "calendar": {
+          "title": "Smart Agenda",
+          "label": "Automated scheduling system with SMS/WhatsApp confirmation and waiting list management."
+        },
+        "financial-management": {
+          "title": "Financial",
+          "label": "Complete control of income, expenses, cash flow and integration with payment systems."
+        },
+        "electronic-pontuary": {
+          "title": "Electronic Medical Record",
+          "label": "Complete digital medical history, interactive odontogram and exam and image attachments."
+        },
+        "reports": {
+          "title": "Real-Time Reports",
+          "label": "Intuitive dashboards with performance metrics, productivity and financial indicators. ",
+          "counters": {
+            "admin-time": "Reduction in administrative time",
+            "user-satisfaction": "User satisfaction"
+          }
+        }
+      }
+    },
+    "benefits": {
+      "title": "Benefits for Clinics and Hospitals",
+      "label": "Proven results that transform the management of your clinic and directly impact the quality of patient care.",
+      "productivity": {
+        "title": "Increased Productivity",
+        "label": "Automate repetitive processes and focus on what really matters: caring for your patients.",
+        "span": "40% more efficient"
+      },
+      "coasts": {
+        "title": "Cost Reduction",
+        "label": "Eliminate waste, optimize resources and have full control over the clinic’s finances",
+        "span": "30% savings"
+      },
+      "patient-experience": {
+        "title": "Patient Experience",
+        "label": "Provide more agile and personalized service with quick access to the complete history.",
+        "span": "95% Satisfaction"
+      },
+      "time-economy": {
+        "title": "Time Saving",
+        "label": "Reduce the time spent on administrative tasks and dedicate more time to clinical care.",
+        "span": "5 hours a day"
+      },
+      "transform-your-clinic": {
+        "title": "Transform your",
+        "span": "clinic",
+        "label": "More than 500 practices already trust DentalSys to modernize their processes, increase operational efficiency and deliver an exceptional patient experience.",
+        "counters": {
+          "clinics": "Clinics Served",
+          "patients": "Managed Patients",
+          "technical-support": "Technical Support"
+        },
+        "request-demo": "Request Demo"
+      }
+    },
+    "testimonials": {
+      "title": "Testimonials and Success Stories",
+      "label": "See what our customers say about the results obtained with DentalSys in their clinics and offices."
+    },
+    "pricing": {
+      "title": "Plans & Prices",
+      "label": "No matter how big your time-saving automation needs, we're here to help you grow.",
+      "starting-at": "Starts at",
+      "get-price-estimate": "Get Estimate",
+      "options": {
+        "monthly": "Monthly",
+        "annual": "Annual"
+      }
+    },
+    "product": {
+      "title": "Ready to transform your clinic?",
+      "label": "Join more than 500 clinics that have already revolutionized their management with DentalSys. ",
+      "items": {
+        "demonstration": {
+          "title": "Demo ",
+          "label": "See in practice how the system adapts to your clinic’s routine, with a tailor-made presentation"
+        },
+        "consulting": {
+          "title": "Free consultancy",
+          "label": "Receive personalized guidance to configure and optimize the system, ensuring fast and efficient deployment."
+        },
+        "support": {
+          "title": "Expert support",
+          "label": "Count on an experienced team ready to help at each stage, from system configuration to system maintenance."
+        },
+        "migration": {
+          "title": "Data migration",
+          "label": "Transfer your information with complete security and continuity, without impacting the functioning of your clinic."
+        }
+      }
+    },
+    "footer": {
+      "label": "Complete management system for dental clinics, hospitals and offices. ",
+      "links": {
+        "institutional": {
+          "title": "Institutional",
+          "about": "On",
+          "testimonials": "Testimonials",
+          "plans": "Plans"
+        },
+        "juridic": {
+          "title": "Legal",
+          "privacy-policy": "Privacy Policy",
+          "terms-of-service": "Terms of Service"
+        }
+      },
+      "all-right-reserved": "All rights reserved."
+    }
   }
 }

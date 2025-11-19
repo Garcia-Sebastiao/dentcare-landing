@@ -1,0 +1,128 @@
+{
+  "home": {
+    "hero": {
+      "span": "Clients dignes de confiance",
+      "title": "Améliorez efficacement votre clinique dentaire",
+      "label": "Simplifiez les processus, centralisez les informations et augmentez la productivité de votre clinique avec une plateforme intelligente conçue pour le secteur dentaire.",
+      "options": {
+        "start-now": "Commencez gratuitement",
+        "contact-consultant": "Parlez à un consultant",
+        "request-demo": "Demander une démo"
+      }
+    },
+    "modules": {
+      "title": "Fonctionnalités et modules",
+      "label": "Des modules intégrés qui fonctionnent ensemble pour offrir une expérience complète de gestion clinique.",
+      "items": {
+        "calendar": {
+          "title": "Agenda intelligent",
+          "label": "Système de planification automatisé avec confirmation SMS/WhatsApp et gestion des listes d'attente."
+        },
+        "financial-management": {
+          "title": "Financier",
+          "label": "Contrôle complet des revenus, des dépenses, des flux de trésorerie et intégration avec les systèmes de paiement."
+        },
+        "electronic-pontuary": {
+          "title": "Dossier médical électronique",
+          "label": "Antécédents médicaux numériques complets, odontogramme interactif et pièces jointes aux examens et images."
+        },
+        "reports": {
+          "title": "Rapports en temps réel",
+          "label": "Tableaux de bord intuitifs avec mesures de performance, indicateurs de productivité et financiers. ",
+          "counters": {
+            "admin-time": "Réduction du temps administratif",
+            "user-satisfaction": "Satisfaction des utilisateurs"
+          }
+        }
+      }
+    },
+    "benefits": {
+      "title": "Avantages pour les cliniques et les hôpitaux",
+      "label": "Des résultats prouvés qui transforment la gestion de votre clinique et impactent directement la qualité des soins aux patients.",
+      "productivity": {
+        "title": "Productivité accrue",
+        "label": "Automatisez les processus répétitifs et concentrez-vous sur ce qui compte vraiment : prendre soin de vos patients.",
+        "span": "40% plus efficace"
+      },
+      "coasts": {
+        "title": "Réduction des coûts",
+        "label": "Éliminez le gaspillage, optimisez les ressources et contrôlez totalement les finances de la clinique",
+        "span": "30% d'économies"
+      },
+      "patient-experience": {
+        "title": "Expérience des patients",
+        "label": "Offrez un service plus agile et personnalisé avec un accès rapide à l’historique complet.",
+        "span": "95% de satisfaction"
+      },
+      "time-economy": {
+        "title": "Gain de temps",
+        "label": "Réduisez le temps consacré aux tâches administratives et consacrez plus de temps aux soins cliniques.",
+        "span": "5 heures par jour"
+      },
+      "transform-your-clinic": {
+        "title": "Transformez votre",
+        "span": "clinique",
+        "label": "Plus de 500 cabinets font déjà confiance à DentalSys pour moderniser leurs processus, accroître leur efficacité opérationnelle et offrir une expérience patient exceptionnelle.",
+        "counters": {
+          "clinics": "Cliniques desservies",
+          "patients": "Patients pris en charge",
+          "technical-support": "Assistance technique"
+        },
+        "request-demo": "Demander une démo"
+      }
+    },
+    "testimonials": {
+      "title": "Témoignages et histoires de réussite",
+      "label": "Découvrez ce que nos clients disent des résultats obtenus avec DentalSys dans leurs cliniques et cabinets."
+    },
+    "pricing": {
+      "title": "Forfaits et prix",
+      "label": "Quelle que soit l'ampleur de vos besoins en matière d'automatisation, nous sommes là pour vous aider à vous développer.",
+      "starting-at": "Commence à",
+      "get-price-estimate": "Obtenir une estimation",
+      "options": {
+        "monthly": "Mensuel",
+        "annual": "Annuel"
+      }
+    },
+    "product": {
+      "title": "Prêt à transformer votre clinique ?",
+      "label": "Rejoignez plus de 500 cliniques qui ont déjà révolutionné leur gestion avec DentalSys. Demandez une démo gratuite et voyez comment nous pouvons aider votre clinique.",
+      "items": {
+        "demonstration": {
+          "title": "Démo ",
+          "label": "Découvrez en pratique comment le système s’adapte à la routine de votre clinique, avec une présentation sur mesure"
+        },
+        "consulting": {
+          "title": "Conseil gratuit",
+          "label": "Recevez des conseils personnalisés pour configurer et optimiser le système, garantissant ainsi un déploiement rapide et efficace."
+        },
+        "support": {
+          "title": "Assistance d'experts",
+          "label": "Comptez sur une équipe expérimentée prête à vous aider à chaque étape, de la configuration du système à la maintenance du système."
+        },
+        "migration": {
+          "title": "Migration de données",
+          "label": "Transférez vos informations en toute sécurité et continuité, sans impacter le fonctionnement de votre clinique."
+        }
+      }
+    },
+    "footer": {
+      "label": "Système de gestion complet pour cliniques dentaires, hôpitaux et bureaux. Une technologie intelligente pour transformer la gestion de votre clinique.",
+      "links": {
+        "institutional": {
+          "title": "Institutionnel",
+          "about": "Sur",
+          "testimonials": "Témoignages",
+          "plans": "Forfaits"
+        },
+        "juridic": {
+          "title": "Légal",
+          "privacy-policy": "politique de confidentialité",
+          "terms-of-service": "Conditions d'utilisation"
+        }
+      },
+      "all-right-reserved": "Tous droits réservés."
+    }
+  }
+}

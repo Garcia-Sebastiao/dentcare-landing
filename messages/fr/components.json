@@ -1,0 +1,12 @@
+{
+  "components": {
+    "header": {
+      "navbar": {
+        "about": "Sur",
+        "plans": "Forfaits",
+        "testimonials": "Témoignages"
+      },
+      "connect": "Connecter"
+    }
+  }
+}

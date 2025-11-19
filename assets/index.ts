@@ -3,6 +3,9 @@ export { default as VideoPreview } from "./common/video-preview.jpg";
 export { default as AppMockImage } from "./common/app-mockup.png";
 export { default as NurseImage } from "./common/nurse-image.jpg";
 export { default as AvatarImage } from "./common/avatar.jpg";
+export {default as FranceFlag} from "./common/french.png";
+export {default as UKFlag} from "./common/english.png";
+export {default as PortugalFlag} from "./common/portuguese.png";
 
 export { default as BenefitsIllustration } from "./illustrations/benefits-illustration.svg";
 export { default as ClinicImproving } from "./illustrations/clinic-improving.svg";
